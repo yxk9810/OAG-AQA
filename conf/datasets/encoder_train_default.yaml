@@ -46,8 +46,8 @@ curatedtrec_dev:
 
 stackex_qa_train:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /home/zhangfanjin/projects/qa/OAG-AQA/data/kddcup/dpr/train_with_hn.json
+  file: /kaggle/working/aqa_train_data_processed/train_with_hn.json
 
 stackex_qa_valid:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /home/zhangfanjin/projects/qa/OAG-AQA/data/kddcup/dpr/dev.json
+  file: /kaggle/working/aqa_train_data_processed/dev.json
