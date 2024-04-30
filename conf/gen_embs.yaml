@@ -3,7 +3,7 @@ defaults:
   - ctx_sources: default_sources
 
 # A trained bi-encoder checkpoint file to initialize the model
-model_file: /kaggle/working/OAG-AQA/outputs/dpr_biencoder
+model_file: /kaggle/input/train-dpr/OAG-AQA/outputs/dpr_biencoder
 
 # Name of the all-passages resource
 ctx_src: dpr_stackex_qa
