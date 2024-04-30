@@ -375,7 +375,7 @@ def save_results(
         merged_data.append(results_item)
     
     pids = []
-    with open("/home/zhangfanjin/projects/qa/OAG-AQA/data/kddcup/candidate_papers.tsv") as rf:
+    with open("/kaggle/working/aqa_train_data_processed/candidate_papers.tsv") as rf:
         for i, line in enumerate(rf):
             items = line.strip().split()
             pids.append(items[-1])
