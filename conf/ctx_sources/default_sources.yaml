@@ -7,5 +7,5 @@ dpr_wiki:
 
 dpr_stackex_qa:
   _target_: dpr.data.retriever_data.CsvCtxSrc
-  file: /kaggle/working/aqa_train_data_processed/candidate_papers.tsv
+  file: /kaggle/working/candidate_papers.tsv
   id_prefix: 'wiki:'
