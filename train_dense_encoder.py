@@ -560,7 +560,9 @@ class BiEncoderTrainer(object):
     def _save_checkpoint(self, scheduler, epoch: int, offset: int) -> str:
         cfg = self.cfg
         model_to_save = get_model_obj(self.biencoder)
-        cp = os.path.join(cfg.output_dir, cfg.checkpoint_file_name + "." + str(epoch))
+        #cp = os.path.join(cfg.output_dir, cfg.checkpoint_file_name + "." + str(epoch))
+        cp = os.path.join('./outputs', cfg.checkpoint_file_name)
+
         meta_params = get_encoder_params_state_from_cfg(cfg)
         state = CheckpointState(
             model_to_save.get_state_dict(),
