@@ -561,7 +561,7 @@ class BiEncoderTrainer(object):
         cfg = self.cfg
         model_to_save = get_model_obj(self.biencoder)
         #cp = os.path.join(cfg.output_dir, cfg.checkpoint_file_name + "." + str(epoch))
-        cp = os.path.join('./outputs', cfg.checkpoint_file_name)
+        cp = os.path.join('/kaggle/working/OAG-AQA/outputs', cfg.checkpoint_file_name)
 
         meta_params = get_encoder_params_state_from_cfg(cfg)
         state = CheckpointState(
