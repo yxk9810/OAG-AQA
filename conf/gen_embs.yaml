@@ -3,7 +3,7 @@ defaults:
   - ctx_sources: default_sources
 
 # A trained bi-encoder checkpoint file to initialize the model
-model_file: /kaggle/working/OAG-AQA/outputs/2024-04-30/02-56-24/output_dpr/dpr_biencoder.0
+model_file: /kaggle/working/OAG-AQA/outputs/dpr_biencoder
 
 # Name of the all-passages resource
 ctx_src: dpr_stackex_qa
@@ -12,7 +12,7 @@ ctx_src: dpr_stackex_qa
 encoder_type: ctx
 
 # output .tsv file path to write results to
-out_file: /kaggle/working/OAG-AQA/outputs/2024-04-30/02-56-24/output_dpr/ctx_encoder_29.pkl
+out_file: /kaggle/working/OAG-AQA/outputs/ctx_encoder_29.pkl
 
 # Whether to lower case the input text. Set True for uncased models, False for the cased ones.
 do_lower_case: True
