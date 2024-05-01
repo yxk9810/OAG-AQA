@@ -35,5 +35,5 @@ curatedtrec_test:
 
 stackex_qa_test:
   _target_: dpr.data.retriever_data.CsvQASrc
-  file: /kaggle/working/aqa_train_data_processed/qa_valid_dpr.tsv
+  file: /kaggle/input/train-dpr/aqa_train_data_processed/qa_valid_dpr.tsv
 
